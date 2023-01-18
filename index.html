@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+        <title>Justin's Sudoku Solver</title>
+  </head>
+  <body>
+      <h1>Justin's Sudoku Solver</h1>
+      <table>
+        <tr>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+        </tr>
+        <tr>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+        </tr>
+        <tr>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+        </tr>
+        <tr>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+        </tr>
+        <tr>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+        </tr>
+        <tr>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+        </tr>
+        <tr>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+        </tr>
+        <tr>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+        </tr>
+        <tr>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+          <td><input type="number" class="nums" min="1" max="9"></td>
+        </tr>
+      </table>
+      <div id="para">
+      <p>
+        Sudoku is played on a grid of 9 x 9 spaces. Within the rows and columns are 9 “squares” (made up of 3 x 3 spaces). Each row, column and square (9 spaces each) needs to be filled out with the numbers 1-9, without repeating any numbers within the row, column or square. Does it sound complicated? As you can see from the image below of an actual Sudoku grid, each Sudoku grid comes with a few spaces already filled in; the more spaces filled in, the easier the game – the more difficult Sudoku puzzles have very few spaces that are already filled in.
+      </p>
+      <br>
+      <p>
+        Enter in your Sodoku puzzle and my algorithim will solve it. Try it out!
+      </p>
+    </div>
+      
+      <input type="submit" value="Solve" id="solve" class="button">
+      
+      <button  id="refresh">Refresh Board</button>
+
+
+    <script src = "main.js"></script>
+  </body>
+</html>
